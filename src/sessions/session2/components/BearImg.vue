@@ -6,8 +6,8 @@ import BearImg from '../../../assets/images/BearImg.png';
   <img
     :src="BearImg"
     class="
-      absolute w-[240px] h-[245px] right-[4px]
-      sm:w-[297px] sm:h-[303.188px] sm:right-0 sm:left-[5px]
+      w-[240px] h-[245px]
+      sm:w-[297px] sm:h-[303.188px]
     "
   >
 </template>

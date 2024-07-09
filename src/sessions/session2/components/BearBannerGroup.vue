@@ -9,7 +9,7 @@ import FootballImg from './FootBallImg.vue';
       flex justify-center items-center w-[800px] h-[428px] relative
     "
     >
-    <FootballImg />
+    <FootballImg class="absolute md:left-[314px] md:bottom-0"/>
     <bearBanner />
   </div>
 </template>

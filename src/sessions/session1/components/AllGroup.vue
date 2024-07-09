@@ -10,12 +10,18 @@ import groupInfo5 from '../../../assets/images/GroupInfo4.png';
 </script>
 
 <template>
-  <div class="flex flex-wrap justify-center items-center w-[324px] sm:w-[496px] md:w-[736px] gap-[20px]">
-    <GroupImg :src="groupInfo"/>
-    <GroupImg :src="groupInfo1"/>
-    <GroupImg :src="groupInfo2"/>
-    <GroupImg :src="groupInfo3"/>
-    <GroupImg :src="groupInfo4"/>
-    <GroupImg :src="groupInfo5"/>
+  <div
+    class="
+      flex flex-wrap justify-center items-center w-[324px] gap-[20px]
+      sm:w-[496px]
+      md:w-[736px]
+    "
+  >
+    <GroupImg :img="groupInfo"/>
+    <GroupImg :img="groupInfo1"/>
+    <GroupImg :img="groupInfo2"/>
+    <GroupImg :img="groupInfo3"/>
+    <GroupImg :img="groupInfo4"/>
+    <GroupImg :img="groupInfo5"/>
   </div>
 </template>

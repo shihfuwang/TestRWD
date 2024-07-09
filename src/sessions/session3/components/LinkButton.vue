@@ -10,7 +10,13 @@
       md:w-[466px] sm-h-[56px]
     "
   >
-  <span class="text-[16px] sm:text-[20px] md:text-[30px]">
+  <span
+    class="
+      text-[16px]
+      sm:text-[20px]
+      md:text-[30px]
+    "
+  >
     預測登記請找➜ <a href="https://line.me/R/ti/p/@877idfxi?oat_content=url" class="link">【FD優惠專員】</a>
   </span>
   </div>
